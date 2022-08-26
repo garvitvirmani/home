@@ -1,7 +1,9 @@
+/*eslint-disable*/
 import SupervisorAccountTwoToneIcon from "@mui/icons-material/SupervisorAccountTwoTone";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import React, { useState, useEffect } from "react";
 import { orange, green } from "@mui/material/colors";
+import { Typography } from "@mui/material";
 import useContentful from "../../useContentful";
 import "./card.css";
 
@@ -10,7 +12,6 @@ function Mcard() {
   const [data, setData] = useState();
 
   useEffect(() => {
-    console.log("Carddddddd");
     getCard().then((response) => setData(response));
     console.log(data);
   }, []);
@@ -27,8 +28,12 @@ function Mcard() {
             }}
             fontSize="large"
           />
-          <div className="cardTitle">{data[0].title}</div>
-          <div className="cardDesc">{data[0].desc}</div>
+          <Typography variant="h1" className="cardTitle">
+            {data[0].title}
+          </Typography>
+          <Typography variant="h2" className="cardDesc">
+            {data[0].desc}
+          </Typography>
           <a className="newsLink" href="">
             {data[0].btnText}
           </a>
@@ -44,8 +49,12 @@ function Mcard() {
             }}
             fontSize="large"
           />
-          <div className="cardTitle">{data[1].title}</div>
-          <div className="cardDesc">{data[1].desc}</div>
+          <Typography variant="h1" className="cardTitle">
+            {data[1].title}
+          </Typography>
+          <Typography variant="h2" className="cardDesc">
+            {data[1].desc}
+          </Typography>
           <a className="newsLink" href="">
             {data[1].btnText}
           </a>

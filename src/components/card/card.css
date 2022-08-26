@@ -7,6 +7,9 @@
   justify-content: space-evenly;
 }
 .cardMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background: #ffffff;
   width: 400px;
   height: 250px;
@@ -24,11 +27,8 @@
   color: #111012;
 }
 .cardTitle {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 45px;
+  font-size: 26px !important;
+  line-height: 45px !important;
 
   color: #111012;
 }
