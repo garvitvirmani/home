@@ -1,0 +1,49 @@
+.newsCnt {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 4%;
+}
+.nimg {
+  width: 275px;
+  height: 200px;
+}
+.auth {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-top: 4%;
+  color: rgba(0, 0, 0, 0.7);
+}
+.newsDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #111012;
+}
+.newsLink {
+  color: orange;
+  text-decoration: none;
+}
+.newsHead {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 8%;
+  height: 50px;
+}
+.newsBtn {
+  position: relative;
+  top: 55%;
+  height: 80%;
+}

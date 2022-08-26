@@ -1,0 +1,26 @@
+.pointTitle {
+  font-weight: 600 !important;
+
+  line-height: 27px !important;
+  /* identical to box height */
+  margin-left: 25% !important;
+  color: #111012;
+}
+.pointDesc {
+  line-height: 150% !important;
+
+  position: relative;
+  left: 9%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  color: #111012;
+}
+.point {
+  padding: 3%;
+}
+.done {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 0.2%;
+}

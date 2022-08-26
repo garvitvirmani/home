@@ -1,0 +1,31 @@
+.title {
+  /* position: absolute; */
+
+  height: 66px;
+  width: 100%;
+  top: 110%;
+  text-align: center;
+  margin-top: 5% !important;
+
+  line-height: 60px !important;
+
+  color: #111012;
+}
+.moto {
+  /* position: absolute; */
+
+  height: 54px;
+  width: 100%;
+  top: 122%;
+  text-align: center;
+
+  line-height: 150% !important;
+  /* or 27px */
+
+  text-align: center;
+
+  color: #111012;
+}
+.whyContainer {
+  margin-bottom: 3%;
+}
