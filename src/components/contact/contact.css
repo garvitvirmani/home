@@ -6,15 +6,9 @@
   padding-top: 10%;
 }
 .cTitle {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
+  line-height: 60px !important;
   text-align: center;
-
   margin-top: 6%;
-
   color: #ffffff;
 }
 .cDesc {
