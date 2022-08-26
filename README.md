@@ -6,7 +6,7 @@
 
 ✔️ Each section of the homepage must be a separate react component.
   
- • In hury i amde it with JS , if needed i can migrate this project to TS(code will be almost same) Develop using TypescripT.
+ • In hury i made it with JS , if needed i can migrate this project to TS(code will be almost same) Develop using TypescripT.
 
 ✔️ I used MUI v5  Use tailwindcss(preferrable) or Material UI
 
