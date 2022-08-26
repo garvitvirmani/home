@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React, { useState, useEffect } from "react";
 import { orange } from "@mui/material/colors";
 import { Grid } from "@mui/material";
@@ -32,10 +33,10 @@ function Footer() {
         />
       </div>
       <Grid container xs={6} spacing={2} className="links">
-        {data
-          && data[0].link.map((each) => (
+        {data &&
+          data[0].link.map((each) => (
             <Grid item xs={4} className="link">
-              <a href="" className="link">
+              <a href={myUrl} className="link">
                 {" "}
                 {each}
               </a>
