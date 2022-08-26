@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import SupervisorAccountTwoToneIcon from "@mui/icons-material/SupervisorAccountTwoTone";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import React, { useState, useEffect } from "react";
