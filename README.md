@@ -2,6 +2,7 @@
 # npm install 
 # npm start 
 
+# Deployed Link https://garvit-home-page.web.app/
 # I have not removed the API keys from this Public repo for your ease will remove it later 
 
 ✔️ Each section of the homepage must be a separate react component.
